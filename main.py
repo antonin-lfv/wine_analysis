@@ -2,6 +2,7 @@ import pandas as pd
 from plotly.offline import plot
 import plotly.express as px
 import plotly.graph_objs as go
+import numpy as np
 
 data = pd.read_csv('data/winemag-data_first150k.csv')
 
@@ -50,7 +51,7 @@ plot(fig)
 ### price average by province and variety ###
 #############################################
 
-
+price = data.groupby(by=['country', 'province']).mean()['price']
 
 
 
