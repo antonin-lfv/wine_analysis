@@ -1,4 +1,4 @@
-<h1 align="center">🍇🍇🍇</h1>
+<p align="center">🍇🍇🍇</p>
 
 <h1 align="center">Analyse de données viticoles</h1>
 
