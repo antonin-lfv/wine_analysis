@@ -4,13 +4,12 @@ import plotly.express as px
 import plotly.graph_objs as go
 import numpy as np
 
-data = pd.read_csv('data/winemag-data_first150k.csv')
+data = pd.read_csv('data/winemag-data_first150k.csv', sep=";")
 
 # 150930 rows -> all unique !
 # 11 cols : ['Unnamed: 0', 'country', 'description', 'designation', 'points', 'price', 'province', 'region_1', 'region_2', 'variety', 'winery']
 # first col useless :
 data.drop('Unnamed: 0', axis=1)
-
 
 
 
