@@ -26,6 +26,10 @@ Ce projet a pour sujet l'analyse de données viticoles mondiales, avec la librai
 
 <br>
 
+<p align="center">
+<img width="1076" alt="Capture d’écran 2021-09-19 à 01 08 09" src="https://user-images.githubusercontent.com/63207451/133910771-b978e865-a0f8-4d7e-b888-73c567439fe5.png">
+</p>
+
 
 
 
